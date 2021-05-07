@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-left {
+    @apply text-sm mr-4 font-semibold text-blue-500 pb-6 border-b-4 border-solid border-transparent;
+}
+
+.header-left:hover {
+    @apply hover:border-green-500 hover:text-green-600;
+}
